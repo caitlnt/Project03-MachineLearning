@@ -1,0 +1,116 @@
+<!---Project 03 - Machine Learning
+Kamila Bajaria, Tashia Hughes, Charles Nguyen, Caitlyn Ta -->
+<!-- VISUALIZATIONS -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Machine Learning | Home</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS  -->
+    <!-- REFERENCE: https://getbootstrap.com/docs/4.0/getting-started/introduction/ -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="https://bootswatch.com/4/spacelab/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="{{url_for('static', filename='styles.css')}}"/>
+    <!-- <link href='https://bootswatch.com/4/spacelab/bootstrap.min.css' rel="stylesheet" type="text/css"> -->
+    <style>
+      img {
+          display: block;
+          margin-left: auto;
+          margin-right: auto;
+      }
+      </style>
+  </head>
+
+<!-- Nav bar & Drop down menu -->
+  <font size=3>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <a class="navbar-brand" href="index.html">Machine Learning</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation" style="">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarColor01">
+      <ul class="nav navbar-nav ml-auto">
+        <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Machine Learning</a>
+        <div class="dropdown-menu dropdown-menu-right" style="position: absolute; transform: translate3d(0px, 42px, 0px); top: 0px; left: 0px; will-change: transform;">
+         <a class="dropdown-item" href="/process">Process</a>
+          <a class="dropdown-item" href="/application">Application</a>
+          <a class="dropdown-item" href="/visuals">Visualizations</a>
+          <a class="dropdown-item" href="/demo">Demo</a>
+          <a class="dropdown-item" href="/conclusions">Conclusions</a>
+          <a class="dropdown-item" href="/appendix">Appendix</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="/">Home</a>
+        </div>
+        </li>
+          <a class="nav-link" href="/">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/process">Process</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/application">Application</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/visuals">Visualizations</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/demo">Demo</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/conclusions">Conclusions</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/appendix">Appendix</a>
+        </li>
+        </ul>
+    </div>
+  </nav>
+  <body>
+      <!-- Optional JavaScript -->
+      <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    
+      <!-- TABLEAU -->
+      <div class="jumbotron">
+        <h1 class="display-4">Visualizations</h1>
+        <h2>Comparison of machine learning algorithms</h2>
+        <p class="lead"></p>
+        <hr class="my-4">
+        <p></p>
+        <p class="lead"></p>
+      </div>
+      <p style="margin-top: 2.5em"></p>
+      
+      <!--Tableau dashboard viz code goes hereb-->
+    <div class="container-fluid text-center">    
+      <div class="row content">
+         <div class="col-sm-12 text-center"> 
+          <br>
+
+         <div class='tableauPlaceholder' id='viz1524019069303' style='position: relative'><noscript><a href='#'><img alt='Visuals Dashboard ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;hw&#47;hwcckt&#47;VisualsDashboard&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='hwcckt&#47;VisualsDashboard' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;hw&#47;hwcckt&#47;VisualsDashboard&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='filter' value='publish=yes' /></object></div>                
+
+         <script type='text/javascript'>                    
+          var divElement = document.getElementById('viz1524019069303');                   
+          var vizElement = divElement.getElementsByTagName('object')[0];                    
+          vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px'
+
+          var scriptElement = document.createElement('script');                    
+          scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';               
+          vizElement.parentNode.insertBefore(scriptElement, vizElement);               
+          </script>
+          </div>
+        </div>
+    </div>
+
+    <!--End of Tableau dashboard viz code-->
+  
+  </body>
+</html>
+

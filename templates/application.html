@@ -1,0 +1,124 @@
+<!---Project 03 - Machine Learning
+Kamila Bajaria, Tashia Hughes, Charles Nguyen, Caitlyn Ta -->
+<!-- Application -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Machine Learning | Home</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS  -->
+    <!-- REFERENCE: https://getbootstrap.com/docs/4.0/getting-started/introduction/ -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="https://bootswatch.com/4/spacelab/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="{{url_for('static', filename='styles.css')}}"/>
+    <!-- <link href='https://bootswatch.com/4/spacelab/bootstrap.min.css' rel="stylesheet" type="text/css"> -->
+    <style>
+      img {
+          display: block;
+          margin-left: auto;
+          margin-right: auto;
+      }
+      </style>
+  </head>
+
+<!-- Nav bar & Drop down menu -->
+  <font size=3>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <a class="navbar-brand" href="index.html">Machine Learning</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation" style="">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarColor01">
+      <ul class="nav navbar-nav ml-auto">
+        <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Machine Learning</a>
+        <div class="dropdown-menu dropdown-menu-right" style="position: absolute; transform: translate3d(0px, 42px, 0px); top: 0px; left: 0px; will-change: transform;">
+         <a class="dropdown-item" href="/process">Process</a>
+          <a class="dropdown-item" href="/application">Application</a>
+          <a class="dropdown-item" href="/visuals">Visualizations</a>
+          <a class="dropdown-item" href="/demo">Demo</a>
+          <a class="dropdown-item" href="/conclusions">Conclusions</a>
+          <a class="dropdown-item" href="/appendix">Appendix</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="/">Home</a>
+        </div>
+        </li>
+          <a class="nav-link" href="/">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/process">Process</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/application">Application</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/visuals">Visualizations</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/demo">Demo</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/conclusions">Conclusions</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/appendix">Appendix</a>
+        </li>
+        </ul>
+    </div>
+  </nav>
+
+  <body>
+      <!-- Optional JavaScript -->
+      <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    
+      <!-- PROCESS -->
+      <div class="jumbotron">
+        <h1 class="display-4">Application</h1>
+         <h2>Building the application</h2>
+        <p class="lead"></p>
+        <hr class="my-4">
+        <p></p>
+        <p class="lead"></p>
+      </div>
+    
+ <!-- Application Flow Summary -->
+   <p style="margin-top: 2.5em"></p>
+      <div class="container-fluid">    
+        <div class="row content">
+            <div class="col-sm-6 text-left"> 
+                <h2><font color = "#3CB521"><b>Apps that get smarter over time</b></font></h2>
+                  <p></p>
+                  <h4>
+                  <p>Smart application factories can rapidly scale up capabilities by decoupling the machine learning processes from application development.</p>
+                  <br>
+                  <p>Application developers can call endpoints provided by the data science function for predictions without knowing anything about machine learning or analytics.</p>
+                  <br>
+                  <p>In this model, the intelligence of the application is provided “as a service” through an API available to developers for predictions.</p>
+                  <br>
+                  <p>Data scientists, in turn, can use actual data from the live application to retrain and improve the inferences provided by their machine learning algorithms.</p>
+                  <br>
+                  <p>The applications ”get smarter” over time.</p>
+                  </a></h4>
+                  
+     
+
+            </div>
+            
+            <div class="col-sm-6 text-right">
+                  <h2><font color = "#3CB521"></font></h2>
+                  <h4><img src ="{{url_for('static', filename='appsflow.jpg')}}" width="500" height="600"</a></h4>
+        </div>
+
+  </body>
+    
+</html>
+
+ 
+

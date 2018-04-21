@@ -1,0 +1,124 @@
+<!---Project 03 - Machine Learning
+Kamila Bajaria, Tashia Hughes, Charles Nguyen, Caitlyn Ta -->
+<!-- Summary -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Machine Learning | Home</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS  -->
+    <!-- REFERENCE: https://getbootstrap.com/docs/4.0/getting-started/introduction/ -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="https://bootswatch.com/4/spacelab/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="{{url_for('static', filename='styles.css')}}"/>
+    <!-- <link href='https://bootswatch.com/4/spacelab/bootstrap.min.css' rel="stylesheet" type="text/css"> -->
+    <style>
+      img {
+          display: block;
+          margin-left: auto;
+          margin-right: auto;
+      }
+      </style>
+  </head>
+
+<!-- Nav bar & Drop down menu -->
+  <font size=3>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <a class="navbar-brand" href="index.html">Machine Learning</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation" style="">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarColor01">
+      <ul class="nav navbar-nav ml-auto">
+        <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Machine Learning</a>
+        <div class="dropdown-menu dropdown-menu-right" style="position: absolute; transform: translate3d(0px, 42px, 0px); top: 0px; left: 0px; will-change: transform;">
+         <a class="dropdown-item" href="/process">Process</a>
+          <a class="dropdown-item" href="/application">Application</a>
+          <a class="dropdown-item" href="/visuals">Visualizations</a>
+          <a class="dropdown-item" href="/demo">Demo</a>
+          <a class="dropdown-item" href="/conclusions">Conclusions</a>
+          <a class="dropdown-item" href="/appendix">Appendix</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="/">Home</a>
+        </div>
+        </li>
+          <a class="nav-link" href="/">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/process">Process</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/application">Application</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/visuals">Visualizations</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/demo">Demo</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/conclusions">Conclusions</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/appendix">Appendix</a>
+        </li>
+        </ul>
+    </div>
+  </nav>
+
+  <body>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+    <!-- Analysis -->
+    <div class="jumbotron">
+      <h1 class="display-3">Machine Learning</h1>
+      <h2>Leveraging cloud technologies to change the economics of making Smart Applications</h2>
+      <p class="lead"></p>
+      <hr class="my-4">
+      <p></p>
+      <p class="lead">
+      <h3>
+        <font color="#446E9B">Team Members: 
+          <p><text>Kamila Bajaria, Tashia Hughes, Charles Nguyen, Caitlyn Ta</text></p>
+        </font>
+      </h3>
+    </div>
+
+  
+    
+  <!-- Machine Learning Summary -->
+   <p style="margin-top: 2.5em"></p>
+      <div class="container-fluid">    
+        <div class="row content">
+            <div class="col-sm-6 text-left"> 
+                <h2><font color = "#3CB521"><b>The Challenge</b></font></h2>
+                  <p></p>
+                  <h4>
+                  <p>Demonstrate the application of machine learning to make a live application smarter</p>
+                  <br>
+                  <p>Show how cloud technologies have profoundly affected the ability to apply machine learning in the real world</p>
+                  <br>
+                  <p>Our application uses the MNIST data set from deeplearning.net (70 thousand 28 x 28 images of hand-written numbers)...</p>
+                  <br>
+                  <p>We train our application over time by providing it feedback about where it went wrong so it gets smarter over time and more personalized for a given user</p>
+                  <br>
+                  <p>Lastly, we demonstrate how cloud technologies are scaling up the value chain of machine learning by decoupling learning and modeling from developers calling prediction APIs “as a service”</p>
+                  </a></h4>
+
+            </div>
+            <div class="col-sm-6 text-right">
+                  <h2><font color = "#3CB521"></font></h2>
+                  <h4><img src = "{{url_for('static', filename='brainlearning.jpg')}}"</a></h4>
+        </div>
+
+  </body>
+</html>
